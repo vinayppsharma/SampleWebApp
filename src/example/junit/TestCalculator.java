@@ -40,7 +40,7 @@ public class TestCalculator {
 		  org.junit.Assert.assertEquals(250, result, 0);
 	 }
 	 
-	 @T
+	 @Test
 	 public void testDivide() {
 		  double result = calc.divide(100, 10);
 		  org.junit.Assert.assertEquals(10, result, 0.001);
